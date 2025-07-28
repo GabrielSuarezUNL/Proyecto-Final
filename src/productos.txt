@@ -1,0 +1,6 @@
+ffff,gorro,Natación,25.0,0
+ffff,kkkjjjj,Natación,458.6,78
+res,dd,Fútbol,6.0,0
+rrr,qqq,Tenis,8.0,0
+erngfoiegfr,fjnerjlgfnrejgfn,Running,598585.0,145
+f0001,pelota,Fútbol,35.0,13
