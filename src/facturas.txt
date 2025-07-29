@@ -1,0 +1,136 @@
+FACTURA: FAC-20250714-0001
+Fecha: 14/07/2025 19:41:23
+Cliente: juab perez
+DNI/RUC: 1105987950
+Teléfono: 1234567896
+Dirección: Loja
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+res	dd	2	6,00	12,00
+erngfoiegfr	fjnerjlgfnrejgfn	8	598585,00	4788680,00
+----------------------------------------
+SUBTOTAL: 4788692,00
+IVA (12%): 574643,04
+TOTAL A PAGAR: 5363335,04
+========================================
+
+FACTURA: FAC-20250714-0001
+Fecha: 14/07/2025 19:42:06
+Cliente: s s
+DNI/RUC: 1234567888
+Teléfono: s
+Dirección: s
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+ffff	kkkjjjj	4	458,60	1834,40
+----------------------------------------
+SUBTOTAL: 1834,40
+IVA (12%): 220,13
+TOTAL A PAGAR: 2054,53
+========================================
+
+FACTURA: FAC-20250714-0001
+Fecha: 14/07/2025 19:46:54
+Cliente: s s
+DNI/RUC: 1234567888
+Teléfono: s
+Dirección: s
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+erngfoiegfr	fjnerjlgfnrejgfn	5	598585,00	2992925,00
+----------------------------------------
+SUBTOTAL: 2992925,00
+IVA (12%): 359151,00
+TOTAL A PAGAR: 3352076,00
+========================================
+
+FACTURA: FAC-20250725-0001
+Fecha: 25/07/2025 17:49:43
+Cliente: juab perez
+DNI/RUC: 1105987950
+Teléfono: 1234567896
+Dirección: Loja
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+ffff	gorro	1	25.00	25.00
+----------------------------------------
+SUBTOTAL: 25.00
+IVA (12%): 3.00
+TOTAL A PAGAR: 28.00
+========================================
+
+FACTURA: FAC-20250725-0001
+Fecha: 25/07/2025 17:56:03
+Cliente: juab perez
+DNI/RUC: 1105987950
+Teléfono: 1234567896
+Dirección: Loja
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+ffff	gorro	2	25.00	50.00
+----------------------------------------
+SUBTOTAL: 50.00
+IVA (12%): 6.00
+TOTAL A PAGAR: 56.00
+========================================
+
+FACTURA: FAC-20250725-0001
+Fecha: 25/07/2025 17:58:34
+Cliente: Gabriel Suarez
+DNI/RUC: 1105827644
+Teléfono: 0979871880
+Dirección: la Argelia
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+f0001	pelota	4	35.00	140.00
+----------------------------------------
+SUBTOTAL: 140.00
+IVA (12%): 16.80
+TOTAL A PAGAR: 156.80
+========================================
+
+FACTURA: FAC-20250725-0001
+Fecha: 25/07/2025 18:02:08
+Cliente: Gabriel Suarez
+DNI/RUC: 1105827644
+Teléfono: 0979871880
+Dirección: la Argelia
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+f0001	pelota	3	35.00	105.00
+----------------------------------------
+SUBTOTAL: 105.00
+IVA (12%): 12.60
+TOTAL A PAGAR: 117.60
+========================================
+
+FACTURA: FAC-20250725-0001
+Fecha: 25/07/2025 22:26:53
+Cliente: Gabriel Suarez
+DNI/RUC: 1105827644
+Teléfono: 0979871880
+Dirección: la Argelia
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+f0001	pelota	5	35.00	175.00
+----------------------------------------
+SUBTOTAL: 175.00
+IVA (12%): 21.00
+TOTAL A PAGAR: 196.00
+========================================
+
+FACTURA: FAC-20250728-0001
+Fecha: 28/07/2025 09:05:12
+Cliente: Gabriel Suarez
+DNI/RUC: 1105827644
+Teléfono: 0979871880
+Dirección: la Argelia
+----------------------------------------
+CÓDIGO	DESCRIPCIÓN	CANT.	P. UNITARIO	SUBTOTAL
+rrr	qqq	1	8.00	8.00
+----------------------------------------
+SUBTOTAL: 8.00
+IVA (12%): 0.96
+TOTAL A PAGAR: 8.96
+========================================
+
