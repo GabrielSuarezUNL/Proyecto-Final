@@ -8,11 +8,11 @@ package modelo;
  *
  * @author villa
  */
-public class Login {
+public class Usuario {
     private String nombre;
     private String clave ;
 
-    public Login(String nombre, String clave) {
+    public Usuario(String nombre, String clave) {
         this.nombre = nombre;
         this.clave = clave;
     }

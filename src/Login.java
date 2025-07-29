@@ -7,6 +7,7 @@ package vista;
 import controlador.ControladorLogin;
 
 import javax.swing.JOptionPane;
+import modelo.Usuario;
 
 /**
  *
@@ -103,7 +104,7 @@ public class Login extends javax.swing.JFrame {
         String clave = new String(txtClave.getPassword()); // Convertir char[] a String
 
         ControladorLogin controlador = new ControladorLogin();
-        modelo.Login usuarioValido = controlador.validarUsuario(usuario, clave);
+        Usuario usuarioValido = controlador.validarUsuario(usuario, clave);
 
         if (usuarioValido != null) {
             JOptionPane.showMessageDialog(this, "¡Bienvenido, " + usuarioValido.getNombre() + "!");
