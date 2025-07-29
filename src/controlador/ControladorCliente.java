@@ -1,4 +1,4 @@
-package controlador;
+ package controlador;
 
 import modelo.Cliente;
 import java.io.*;
@@ -8,10 +8,11 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
- * Controlador que gestiona las operaciones CRUD para clientes,
- * incluyendo la persistencia en archivo de texto.
+ * Controlador que gestiona las operaciones CRUD para clientes, incluyendo la
+ * persistencia en archivo de texto.
  */
 public class ControladorCliente {
+
     // Nombre del archivo donde se guardarán los datos
     private static final String ARCHIVO = "clientes.txt";
     // Lista en memoria para almacenar los clientes
@@ -38,11 +39,11 @@ public class ControladorCliente {
                 if (datos.length == 5) {
                     // Crear cliente desde los datos del archivo
                     Cliente c = new Cliente(
-                        datos[0], // dni
-                        datos[1], // nombres
-                        datos[2], // apellidos
-                        datos[3], // telefono
-                        datos[4]  // direccion
+                            datos[0], // dni
+                            datos[1], // nombres
+                            datos[2], // apellidos
+                            datos[3], // telefono
+                            datos[4] // direccion
                     );
                     clientes.add(c);
                 }
@@ -68,6 +69,7 @@ public class ControladorCliente {
 
     /**
      * Agrega un nuevo cliente al sistema.
+     *
      * @param cliente El cliente a agregar
      */
     public void agregarCliente(Cliente cliente) {
@@ -77,6 +79,7 @@ public class ControladorCliente {
 
     /**
      * Modifica un cliente existente en el sistema.
+     *
      * @param indice Posición del cliente en la lista
      * @param cliente Cliente con los nuevos datos
      */
@@ -89,6 +92,7 @@ public class ControladorCliente {
 
     /**
      * Elimina un cliente del sistema.
+     *
      * @param indice Posición del cliente a eliminar
      */
     public void eliminarCliente(int indice) {
@@ -100,12 +104,13 @@ public class ControladorCliente {
 
     /**
      * Actualiza los datos mostrados en una tabla JTable.
+     *
      * @param table La tabla a actualizar
      */
     public void actualizarTabla(javax.swing.JTable table) {
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         model.setRowCount(0); // Limpiar la tabla
-        
+
         // Agregar cada cliente como fila en la tabla
         for (Cliente c : clientes) {
             model.addRow(new Object[]{
@@ -120,6 +125,7 @@ public class ControladorCliente {
 
     /**
      * Busca un cliente por su DNI y devuelve su posición en la lista.
+     *
      * @param dni DNI del cliente a buscar
      * @return Índice del cliente o -1 si no se encuentra
      */
@@ -133,7 +139,32 @@ public class ControladorCliente {
     }
 
     /**
+     * Busca un cliente por su DNI
+     *
+     * @param dni Documento de identidad
+     * @return Cliente encontrado o null si no existe
+     */
+    public Cliente buscarClientePorDni(String dni) {
+        for (Cliente cliente : clientes) {
+            if (cliente.getDni().equals(dni)) {
+                return cliente;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Obtiene la lista completa de clientes
+     *
+     * @return Lista de clientes (copia para proteger encapsulamiento)
+     */
+    public List<Cliente> getClientes() {
+        return new ArrayList<>(clientes); // Retorna una copia de la lista
+    }
+
+    /**
      * Muestra un mensaje de error en un diálogo.
+     *
      * @param mensaje Texto del error a mostrar
      */
     private void mostrarError(String mensaje) {
